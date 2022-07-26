@@ -3,7 +3,7 @@ using TMPro;
 
 namespace VRTX
 {
-    public class GraphQLTest : MonoBehaviour
+    public class TestingGraphQL : MonoBehaviour
     {
         public TextMeshProUGUI log;
 

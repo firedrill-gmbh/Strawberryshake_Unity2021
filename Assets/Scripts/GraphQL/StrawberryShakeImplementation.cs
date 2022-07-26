@@ -2,7 +2,6 @@ using StrawberryShake;
 using Microsoft.Extensions.DependencyInjection;
 using Demo;
 using System;
-using System.Net.Http;
 using System.Threading.Tasks;
 
 public class StrawberryShakeImplementation
@@ -22,7 +21,7 @@ public class StrawberryShakeImplementation
 
         client = services.GetRequiredService<IConferenceClient>();
 
-       return $"GrapQL Initialized with {url}" + Environment.NewLine;
+        return $"Initialized with {url}" + Environment.NewLine;
     }
 
     public void Reset()
