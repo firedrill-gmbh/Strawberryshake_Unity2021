@@ -1,10 +1,4 @@
 using UnityEngine;
-using StrawberryShake;
-using Microsoft.Extensions.DependencyInjection;
-using Demo;
-using System;
-using System.Net.Http;
-using System.Threading.Tasks;
 using TMPro;
 
 namespace VRTX
@@ -14,7 +8,6 @@ namespace VRTX
         public TextMeshProUGUI log;
 
         private StrawberryShakeImplementation strawberryShake = null;
-        private IConferenceClient client;
 
         public void InitGrapQL()
         {

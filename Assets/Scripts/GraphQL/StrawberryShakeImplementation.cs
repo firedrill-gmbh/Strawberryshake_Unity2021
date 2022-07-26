@@ -5,7 +5,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-public class StrawberryShakeImplementation : IHttpClientFactory
+public class StrawberryShakeImplementation
 {
     private IConferenceClient client;
 
@@ -19,8 +19,6 @@ public class StrawberryShakeImplementation : IHttpClientFactory
             .ConfigureHttpClient(client => client.BaseAddress = new Uri(url));
 
         IServiceProvider services = serviceCollection.BuildServiceProvider();
-
-        //var httpClient = serviceCollection.AddHttpClient();
 
         client = services.GetRequiredService<IConferenceClient>();
 
@@ -43,10 +41,5 @@ public class StrawberryShakeImplementation : IHttpClientFactory
             resultStr += session.Title + Environment.NewLine;
         }
         return resultStr;
-    }
-
-    public HttpClient CreateClient(string name)
-    {
-        return new HttpClient();
     }
 }
