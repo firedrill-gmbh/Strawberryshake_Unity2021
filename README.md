@@ -9,4 +9,9 @@
   https://chillicream.com/docs/strawberryshake/get-started/console.
 ## State
 - The project runs in Editor
-- The project fails on Android
+- The project runs on Android 
+  - The "InvalidOperationException: A suitable constructor for type 'Microsoft.Extensions.Http.DefaultHttpClientFactory' could not be located." was fixed by https://github.com/firedrill-gmbh/Strawberryshake_Unity2021/commit/a2d571cf55efff40f5afff60e4df86bfb0ee9dd8
+  - The "Error Unity WebException: Error: NameResolutionFailure" was fixed by https://github.com/firedrill-gmbh/Strawberryshake_Unity2021/commit/726fc6fc96596661a68b022c8f37073724aef719
+- The project is bronekn on iOS
+  - InvalidOperationException: A suitable constructor for type 'StrawberryShake.EntityStore' could not be located.
+
