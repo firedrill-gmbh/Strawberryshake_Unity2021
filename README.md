@@ -14,4 +14,4 @@
   - The "Error Unity WebException: Error: NameResolutionFailure" was fixed by https://github.com/firedrill-gmbh/Strawberryshake_Unity2021/commit/726fc6fc96596661a68b022c8f37073724aef719
 - The project is bronekn on iOS
   - InvalidOperationException: A suitable constructor for type 'StrawberryShake.EntityStore' could not be located.
-
+  - Note: iOS is curently not configured for this projekct. The exception is from oure main project.
