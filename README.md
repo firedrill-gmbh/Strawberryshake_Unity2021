@@ -3,9 +3,8 @@
 ## Setup
 - The project includes the package StrawberryShake.Transport.Http and
   all dependencies.
-- The link.xml file makes sure that none of the packages are striped by Unity [Unity - Manual: Managed code stripping](https://docs.unity3d.com/Manual/ManagedCodeStripping.html).
-- All packages are available as NET.Standart 2.0 and where applicable
-  as NET.Standart 2.1. The 2.0 packages are disabled for all platforms. I left them there in case you want NET.Standart 2.0 compatibility.
+  - All packages are available as NET.Standart 2.0 and where applicable as NET.Standart 2.1. Where 2.1 packages exist the 2.0 packages are disabled for all platforms. I left them there in case you want NET.Standart 2.0 compatibility, e.g.: older for unity versions.
+  - The link.xml file makes sure that none of the packages are striped by Unity [Unity - Manual: Managed code stripping](https://docs.unity3d.com/Manual/ManagedCodeStripping.html).
 - The GraphQL backend URL and the auto generated files origin from an external console project. It was built from the sample
   https://chillicream.com/docs/strawberryshake/get-started/console.
 
