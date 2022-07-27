@@ -1,4 +1,4 @@
-# Implementation of StrawberryShake for Unity 2021.3 LTS
+# Implementation of StrawberryShake 13 for Unity 2021.3 LTS
 ## Setup
 - The project includes the package StrawberryShake.Transport.Http and
   all dependencies.
