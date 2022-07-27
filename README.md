@@ -1,20 +1,17 @@
 # Implementation of StrawberryShake 13 for Unity 2021.3 LTS
 
 ## Setup
-
 - The project includes the package StrawberryShake.Transport.Http and
   all dependencies.
-- The link.xml file makes sure that none of the packeges are striped by Unity [Unity - Manual: Managed code stripping](https://docs.unity3d.com/Manual/ManagedCodeStripping.html).
+- The link.xml file makes sure that none of the packages are striped by Unity [Unity - Manual: Managed code stripping](https://docs.unity3d.com/Manual/ManagedCodeStripping.html).
 - All packages are available as NET.Standart 2.0 and where applicable
-  as NET.Standart 2.1. The 2.1 packages are disabled for all platforms.
-- The GraphQL backend URL and the auto generated files origin from
-  an external console project. It was built from the sample
+  as NET.Standart 2.1. The 2.0 packages are disabled for all platforms. I left them there in case you want NET.Standart 2.0 compatibility.
+- The GraphQL backend URL and the auto generated files origin from an external console project. It was built from the sample
   https://chillicream.com/docs/strawberryshake/get-started/console.
-  
-  ## State
-  
+
+## State
 - The project runs in Editor
 - The project runs on Android
-  - The "Error Unity WebException: Error: NameResolutionFailure" was fixed by https://github.com/firedrill-gmbh/Strawberryshake_Unity2021/commit/726fc6fc96596661a68b022c8f37073724aef719
+  - When you create a project make sure you set Android->Configuration->Internet Access from Auto to Require in the Player settings. Otherwise, you will get a "Error Unity WebException: Error: NameResolutionFailure ..." and don't know what to do as I did^^. I think the reason for this has also to do with Managed code stripping but adding System.Net to the link.xml did not work.
 - The project runs on iOS
   - You need to input your own appleDeveloperTeamID in the PlayerSettings before building
