@@ -19,13 +19,13 @@ namespace VRTX
         public void ResetGraphQL()
         {
             strawberryShake.Reset();
-            ClearLog();
+            AddToLog("ResetGraphQL");
         }
 
         public async void RunGrapQLQuery()
         {
-           var result = await strawberryShake.RunQuery();
-           AddToLog(result);
+            var result = await strawberryShake.RunQuery();
+            AddToLog(result);
         }
 
         public void AddToLog(string value)
@@ -37,7 +37,5 @@ namespace VRTX
         {
             log.text = "";
         }
-
-
     }
 }
