@@ -15,9 +15,13 @@
     <assembly fullname="Microsoft.Net.Http.Headers" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="StrawberryShake.Core" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="StrawberryShake.Resources" preserve="all" ignoreIfMissing="1"/>
+    <!-- strawberryshake.server should not be needed because its just tooling and not going into the build -->
     <assembly fullname="StrawberryShake.Transport.Http" preserve="all" ignoreIfMissing="1"/>
+    <assembly fullname="StrawberryShake.Transport.WebSockets" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="System.Buffers" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="System.Collections.Immutable" preserve="all" ignoreIfMissing="1"/>
+    <assembly fullname="System.IO.Pipelines" preserve="all" ignoreIfMissing="1"/>
+    <assembly fullname="System.Net.Http.Json" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="System.Numerics.Vectors" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="System.Runtime.CompilerServices.Unsafe" preserve="all" ignoreIfMissing="1"/>
     <assembly fullname="System.Text.Encodings.Web" preserve="all" ignoreIfMissing="1"/>
