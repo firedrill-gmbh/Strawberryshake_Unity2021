@@ -1,4 +1,4 @@
-# Implementation of StrawberryShake 13 for Unity 2021.3 LTS
+# Implementation of StrawberryShake 13 for Unity 2021 LTS
 ## Setup
 - The project includes the package StrawberryShake.Server and all dependencies.
   - All dependency packages of StrawberryShake.Server packages are where possible as NET.Standart 2.1 .dll and otherwise as NET.Standart 2.0 .dll.
