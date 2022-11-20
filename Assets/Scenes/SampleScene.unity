@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 771325101}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.41407803
+  m_Size: 0.34284663
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2000,7 +2000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0852951d7b9b3b4a882108be19edebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  log: {fileID: 542119668}
+  log: {fileID: 0}
 --- !u!4 &1752515439
 Transform:
   m_ObjectHideFlags: 0
